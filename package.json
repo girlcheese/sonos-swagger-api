@@ -11,6 +11,11 @@
     "type": "git",
     "url": "https://github.com/antxxxx/sonos-swagger-api.git"
   },
+  "standard": {
+    "ignore": [
+      "/static/docs/"
+    ]
+  },
   "dependencies": {
     "bluebird": "^3.4.6",
     "debug": "^2.3.3",
@@ -37,6 +42,11 @@
   "main": "app.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.11.1"
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
