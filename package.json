@@ -4,7 +4,9 @@
   "description": "A swagger based node app for controlling a Sonos system with HTTP requests",
   "scripts": {
     "start": "node app.js",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Anthony Brown <anthony@found-it.net>",
   "repository": {
@@ -23,12 +25,13 @@
     "nconf": "^0.8.4",
     "nedb": "^1.8.0",
     "request": "^2.79.0",
-    "request-promise": "^1.0.2",
+    "request-promise": "^2.0.1",
     "sonos-discovery": "https://github.com/jishi/node-sonos-discovery/archive/v1.4.1.tar.gz",
     "spotify-web-api-node": "^2.3.6",
     "swagger-express-mw": "^0.7.0",
     "sway": "^1.0.0",
-    "xml-to-json-promise": "0.0.3"
+    "xml-to-json-promise": "0.0.3",
+    "snyk": "^1.88.0"
   },
   "engines": {
     "node": ">=4.0.0",
@@ -38,5 +41,6 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.11.1"
-  }
+  },
+  "snyk": true
 }
