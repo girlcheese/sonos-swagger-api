@@ -31,7 +31,7 @@
     "swagger-express-mw": "^0.7.0",
     "sway": "^1.0.0",
     "xml-to-json-promise": "0.0.3",
-    "snyk": "^1.122.3"
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": ">=4.0.0",

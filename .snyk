@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -22,3 +22,22 @@ patch:
         patched: '2019-01-23T13:12:50.101Z'
     - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > rttc > lodash:
         patched: '2019-01-23T13:12:50.101Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - request-promise > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - sway > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - log4js > hipchat-notifier > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - log4js > mailgun-js > async > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - log4js > slack-node > requestretry > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - sway > json-refs > graphlib > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - swagger-express-mw > swagger-node-runner > sway > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
+    - swagger-express-mw > swagger-node-runner > sway > json-refs > graphlib > lodash:
+        patched: '2020-04-30T21:34:25.767Z'
