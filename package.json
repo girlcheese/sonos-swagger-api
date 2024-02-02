@@ -25,7 +25,7 @@
     "nconf": "^0.8.4",
     "nedb": "^1.8.0",
     "request": "^2.79.0",
-    "request-promise": "^2.0.1",
+    "request-promise": "^4.2.6",
     "sonos-discovery": "https://github.com/jishi/node-sonos-discovery/archive/v1.4.1.tar.gz",
     "spotify-web-api-node": "^4.0.0",
     "swagger-express-mw": "^0.7.0",
